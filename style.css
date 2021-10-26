@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+    transition: 0.3;
+}
+
+div {
+    width: 25vw;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div>button {
+    border: none;
+    font-family: monospace;
+    margin: 5px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    flex: 30%
+}
+
+input {
+    margin: 5px;
+    flex: 50%;
+    border: black solid 1px;;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-family: monospace;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
